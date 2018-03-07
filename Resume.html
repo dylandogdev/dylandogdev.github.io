@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='icon'
+              type="image/png"
+              href="/favicons/logo_transparent.png">
+        <title>Dylan's Personal HomePage</title>    
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"
+                integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        .container{
+            min-height: 100%;
+            position: absolute;
+            width:100%;
+            background: url(images/elephant.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .container-fluid{
+            padding: 0;
+        }
+
+        .navbar{
+            min-width: 100%;
+            margin-bottom: 0;
+        }
+
+        #logo{
+            width:100px;
+        }
+
+        #floatingBlockText{
+            margin-top: auto;
+            border-right: 2px;
+            border-right-color: black;
+            text-align: center;
+        }
+
+        #upperLeftBox{
+            padding-top: 5%;
+            padding-right: 4%
+        }
+
+        #upperLeftBox p {
+            text-align:justify;
+            padding-bottom: 6.5%;
+        }
+
+        #upperLeftBox h2 {
+            text-align:justify;
+        }
+
+        #upperLeftBox h3 {
+            padding-bottom: 7%;
+        }
+
+        #lowerLeftBox{
+            padding-left: 10px;
+            padding-bottom: 20px;
+        }
+
+        #floatingBlockText2{
+            text-align:justify;
+
+        }
+        #floatingBlock{  
+            min-height: 500px; 
+            background-color: #f4f3eaE6;
+            border-radius: 5px;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        #selfie{
+            resize: 50px, 50px;
+            display: inline;
+            margin-top: 30%;
+            width: 96%;
+        }
+
+        #divider{
+            background: #c1648d;
+            height: 2px;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        .fa {
+            border-radius: 5px;
+            width: 60px;
+            font-size: 40px;
+            padding: 10px;
+            color:#f4f3eaE6;
+            background-color: #c1648d;
+            justify-content: center;
+        }
+
+        .fa:hover{
+            opacity: 0.7;
+            color: black;
+            text-decoration: none;
+        }
+
+        #socialButtons{
+            padding-bottom: 20%;
+        }
+
+        .footer{
+            padding-top: 4px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f4f3eab3; 
+        }
+
+    </style>
+    <body>
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="home.html">dylandogdev</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="home.html">
+                            Home
+                        </a>
+                    <li>
+                    <li>
+                        <a href="AboutMe.html">
+                            About Me
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="MyWork.html">
+                            My Work
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="Resume.html">
+                            Resume/CV
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="Testimonials.html">
+                            Testimonials
+                        </a>
+                    </li>
+                    <li>
+                        <a href="MyBlog.html">
+                            My Blog
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="Social.html">
+                            Social
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+        <div class="container">
+            <div id="floatingBlock" class="col-xs-10 col-xs-offset-1">
+                <!-- content goes here -->
+                <div id="resume_wholedoc">
+                    <div class="row">
+                        <div class="col-xs-2 col-xs-offset-1 col-centered">
+                            <h2>Dylan Dog</h2>
+                            <h3>dylan@dylandogdev.com</h3>
+                            <h3>@dylandogdev</h3>
+                        </div>
+                        <div class="col-xs-6">
+                        </div>
+                        <div class="col-xs-2">
+                            <img src="favicons/logo_transparent.png" width="150px">
+                        </div>
+                    </div>
+                    <div id="resume_body" class="col-xs-10 col-xs-offset-1">
+                        <div id="objective_heading">
+                            <h3>Objective</h3>
+                        </div>
+                        <div id="objective_body">
+                            <p>
+                                To bring the skills and passion for problem solving that I have developed over my career in startups, e-commerce, and higher education to a job as a junior developer!
+                            </p>
+                        </div>
+                        <div id="skills_heading">
+                            <h3>Skills</h3>
+                        </div>
+                        <div id="skills_body">
+                            <p>
+                                HTML, CSS, JavaScript, jQuery, SQL, BootStrap, Ruby, Ruby on Rails, Swift, Sass, Git 
+                            </p>
+                        </div>
+                        <div id="experience_heading">
+                            <h2>Experience</h2>
+                        </div>
+                        <div id="experience_body">
+                            <div id="job_1">
+                                <h3>Freelance Web Developer // dylandogdev.com</h3>
+                                <h3>2017-Present</h3>
+                                <p>
+                                    Full stack web developer specializing in Java. Experience with all aspects of the development lifecycle from planning to maintenance.
+                                </p>
+                            </div>
+                            <div id="job_2">
+                                <h3>Order Specialist // University of Washington</h3>
+                                <h3>2016-2017</h3>
+                                <p>
+                                    Developed collections for one of the largest library systems in the country. I specialized in digital media acquisition and licensing. I also worked with databases such as Hathi Trust, and handled large volume FTP ordering and mapping into our ILS, Alma. 
+                                </p>
+                                <ul>
+                                    <li>Fundamentals of Project Management</li>
+                                    <li>Design and Communication</li>
+                                    <li>Writing Effective Policies and Procedures</li>
+                                </ul>
+                            </div>
+                            <div id="job_3">
+                                <h3>Owner // Blind Friar Books</h3>
+                                <h3>2012-2016</h3>
+                                <p>
+                                    Used the skills I picked up at Whiskers to spinoff my own startup. This was my passion project in college and helped me pay for my school. I achieved the goal of disrupting the traditional bookselling space by proving that I could create a successful online sales presence without the burden of maintaining my own traditional website.
+                                </p>
+                            </div>
+                            <div id="job_4">
+                                <h3>Senior Assistant Manager // Whiskers Books</h3>
+                                <h3>2010-2016</h3>
+                                <p>
+                                    Full stack web developer specializing in Java. Experience with all aspects of the development lifecycle from planning to maintenance.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="internships_heading">
+                            <h2>Internships</h2>
+                        </div>
+                        <div id="internships_body">
+                            <div id="internship_1">
+                                <h3>Intern // Historic Seattle</h3> <!-- add a link to them and to my article -->
+                                <h3>2012</h3>
+                                <p>
+                                    Performed digital archival and database research as part of the nonprofit grant writing process. Highlights included creating a roster of all the historical tenants of a building with no original tenant records to help me (!).
+                                    One of the main projects I worked on (Pike and Pine/Bauhaus Buildings) was featured in local and national news! <!-- link to Stranger and KING5 -->
+                                </p>
+                            </div> 
+                            <div id="internship_2">
+                                <h3>SUYI Volunteer // Seattle Public Schools</h3>
+                                <h3>2013</h3>
+                                <p>
+                                    Volunteered as a student assistant teaching math and science to Kindergarten  & 1st grade students at Bailey Gatzert Elementary.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="education_heading">
+                            <h2>Education</h2>
+                        </div>
+                        <div id="education_body">
+                            <div id="education_1">
+                                <h3>BA (Summa Cum Laude): History // Seattle University</h3>
+                            </div>
+                            <div id="education_2">
+                                <h3>Full Stack Java Certification // The Software Guild</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p> &copy; Dylan Dog 2018 </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
