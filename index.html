@@ -18,12 +18,17 @@
         .container{
             min-height: 100%;
             position: absolute;
-            width:100%;
+            min-width:100%;
             background: url(images/elephant.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+        }
+
+        .container-fluid{
+            min-width: 100%;
+            padding: 0;
         }
         .navbar{
             margin-bottom: 0;
@@ -69,7 +74,6 @@
         }
         #floatingBlock{  
             min-height: 100%;
-            position: absolute;
             background-color: #f4f3eaE6;
             border-radius: 5px;
             margin-top: 10%;
@@ -88,17 +92,17 @@
             height: 2px;
             margin-top: 10%;
             margin-bottom: 10%;
-            margin-left: 0;
         }
 
         .fa {
+            padding: 5px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
             border-radius: 5px;
-            width: 60px;
-            font-size: 40px;
-            padding: 10px;
             color:#f4f3eaE6;
             background-color: #c1648d;
-            justify-content: center;
         }
 
         .fa:hover{
@@ -122,31 +126,42 @@
         #socialButtonsWrapper{
             margin-left: 0;
         }
+        #dividerdiv{
+            margin-left: 0
+        }
     </style>
 
     <body>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-inverse">
+
                 <div class="navbar-header">
                     <a class="navbar-brand" href="home.html">dylandogdev</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="home.html">Home</a><li>
-                    <li><a>About Me</a></li> 
-                    <li><a>My Work</a></li> 
-                    <li><a>Resume/CV</a></li> 
-                    <li><a>Testimonials</a></li>
-                    <li><a>My Blog</a></li> 
-                    <li><a>Social</a></li>
-                </ul>
-            </div>
-        </nav>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="active"><a href="home.html">Home</a><li>
+                        <li><a>About Me</a></li> 
+                        <li><a>My Work</a></li> 
+                        <li><a>Resume/CV</a></li> 
+                        <li><a>Testimonials</a></li>
+                        <li><a>My Blog</a></li> 
+                        <li><a>Social</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
         <div class="container">
-            <div id="floatingBlock" class="col-md-10 col-md-offset-1">
+            <div id="floatingBlock" class="col-sm-10 col-sm-offset-1">
                 <div id="floatingBlockText">
                     <div id="upperLeftBox" 
-                         class="col-md-5 col-md-offset-1 col-centered
-                                col-xs-10 col-xs-offset-1">
+                         class="col-sm-5 col-sm-offset-1 col-centered">
                         <p> </p>
                         <h2>freedom is nothing else but a chance to be better</h2>
                         <h3>// albert camus</h3>
@@ -154,20 +169,19 @@
 
                         <p>Have a question or opportunity for me?  Follow me on social media and get in touch!</p>
                     </div>
-                    <div id="selfieBox" class="col-md-5
-                                               col-xs-6 col-xs-offset-3">
-                        <div class="img-wrapper col-md-10 col-md-offset-1
+                    <div id="selfieBox" class="col-sm-5">
+                        <div class="img-wrapper col-sm-10 col-sm-offset-1
                                     col-xs-10 col-xs-offset-1">
                             <img id="selfie" src="images/picOfMe02_18.JPG" class="img-circle img-responsive" alt="A picture of me, smiling because I love coding.">
                         </div>
                     </div>
                 </div>
                 <div id="floatingBlockText2">
-                    <div class="col-md-5">
+                    <div class="col-sm-5 col-centered
+                                col-xs-12" id="dividerdiv">
                         <hr id="divider"/>
                     </div>
-                    <div id="socialButtonsWrapper" class="col-md-5
-                                col-xs-10 col-xs-offset-1">
+                    <div id="socialButtonsWrapper" class="col-sm-5">
                         <!-- Go to www.addthis.com/dashboard to customize your tools -->
                         <div id="socialButtons">
                             <a href="https://www.linkedin.com/in/dylan-dog-63a696159" class="fa fa-linkedin"></a>
