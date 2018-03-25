@@ -1,0 +1,186 @@
+.container{
+            min-height: 100%;
+            position: absolute;
+            min-width:100%;
+            background: url(images/elephant.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            font-family: helvetica;
+        }
+
+        div.container-fluid{
+            min-height: 100%;
+            min-width: 100%;
+            padding: 0;
+            margin:0;
+            border: 0;
+        }
+        nav.navbar.navbar-expand-lg.navbar-inverse{
+            border:0;
+            margin:0;
+            padding:0;
+        }
+        
+        .collapse.in{
+            text-align: center;
+        }
+        
+        .collapse.in .fa {
+            display: none;
+        }
+
+        #logo{
+            width:100px;
+        }
+
+        #floatingBlockText{
+            margin-top: auto;
+            border-right: 2px;
+            border-right-color: black;
+            text-align: center;
+        }
+
+        #upperLeftBox{
+            padding-top: 5%;
+            padding-right: 4%
+        }
+
+        #upperLeftBox p {
+            text-align:justify;
+            padding-bottom: 6.5%;
+        }
+
+        #upperLeftBox h2 {
+            text-align:justify;
+        }
+
+        #upperLeftBox h3 {
+            padding-bottom: 7%;
+        }
+
+        #lowerLeftBox{
+            padding-left: 10px;
+            padding-bottom: 20px;
+        }
+
+        #floatingBlockText2{
+            text-align:justify;
+
+        }
+        #floatingBlock{
+            min-height: 100%;
+            background-color: #f4f3eaE6;
+            border-radius: 5px;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        #selfieBox{
+            padding-top: 10%;
+            margin-left: 0;
+            align-content: center;
+        }
+
+        #divider{
+
+            background: #c1648d;
+            height: 2px;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        #socialButtons .fa {
+            padding: 5px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            color:#f4f3eaE6;
+            background-color: #c1648d;
+        }
+
+        .fa:hover{
+            opacity: 0.7;
+            color: black;
+            text-decoration: none;
+        }
+
+        #socialButtons{
+            padding-bottom: 20%;
+            text-align: center;
+        }
+
+        .footer{
+            padding-top: 4px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f4f3eab3; 
+        }
+        #socialButtonsWrapper{
+            margin-left: 0;
+        }
+        #dividerdiv{
+            margin-left: 0
+        }
+    
+#education_body{
+    padding-bottom: 10px;
+}
+
+#resume_wholedoc{
+    
+}
+
+#resume_logo{
+    margin-top: 7px;
+    height: 100%;
+    
+}
+
+#resume_heading{
+    padding-bottom: 20px;
+}
+
+.resume_body_text{
+    text-align: justify;
+}
+
+#info_row{
+    margin-top: 10px;
+}
+
+#resume_heading{
+    color: #c1648d;
+    font-family: helvetica;
+}
+
+.resume_category{
+    color: #c1648d;
+    font-family: helvetica;
+}
+
+.inline_link{
+    color: #c1648d;
+}
+
+.inline_link:hover{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+#downloadresume {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#edsub{
+    text-indent: 50px;
+}
+
+
